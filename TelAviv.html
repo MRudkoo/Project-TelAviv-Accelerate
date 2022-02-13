@@ -27,7 +27,7 @@
                     <nav class="nav-menu-wrap">
                         <ul class="nav-menu-list">
                             <li class="item-speakers">
-                                <a class="nav-menu-link" href="">SPEAKERS</a>
+                                <a class="nav-menu-link" href="#agenda">SPEAKERS</a>
                             </li>
                             <li class="item-topics">
                                 <a class="nav-menu-link" href="">TOPICS</a>
@@ -37,11 +37,14 @@
                             </li>                    
                         </ul>
                     </nav>
+                    <button id="button-header-wrap">
+                        <span id="button-header">CLAIM YOUR FREE SEAT</span>
+                    </button>
                 </div>
             </div>
         </header>
          <!--Screen 1-->
-        <main class="screen1-wrapper-background">
+        <main class="screen1-wrapper-background" id="screen1">
             <div class="container">
                 <div class="screen1-main-content">
                     <!--Левый блок с основным контентом-->
@@ -378,12 +381,12 @@
                                             <input autocomplete="on" type="text" name="Company" placeholder="Company*">
                                         </div>
                                     </div>
-                                    <button id="button1-wrap">
+                                    <button type="submit" id="button1-wrap">
                                         <span id="button1">CLAIM YOUR FREE SEAT</span>
                                     </button>
                                     <div id="private-policy">
                                         <p>By submitting this form, you confirm that you agree to the storing and processing of your personal data by Creatio as described in the 
-                                            <a href="https://www.creatio.com/privacy-policy" target="_blank">Privacy Policy</a> .</p>
+                                        <a href="https://www.creatio.com/privacy-policy" target="_blank">Privacy Policy</a> .</p>
                                     </div>
                                 </fieldset>
                             </form>
@@ -394,7 +397,7 @@
         </main>
 
         <!--Screen 2-->
-        <div class="screen2">
+        <div class="screen2-wrapper" id="screen2">
             <div class="container ">
                 <div class="container-screen2">
                     <div class="container-screen2-title-wrap container-screen2-title">
@@ -434,12 +437,157 @@
                             </div>
                         </div>
                     </div>
-                    <button id="button2-wrap">
+                    <button type="button" id="button2-wrap">
                         <span id="button2">CLAIM YOUR FREE SEAT</span>
                     </button>
                 </div>
             </div>
         </div>
+
+        <!--Screen 3-->
+        <div class="screen3">
+            <div class="container">
+                <div class="agenda-title"> 
+                    <h2 id="agenda">AGENDA</h2>
+                </div>
+                <div class="agenda-subtitle">
+                    <p class="agenda-subtitle-content">
+                        Deep dive into practical cases and learn how your peers leveraged no-code,
+                        <br> BPM and CRM technologies
+                    </p>
+                </div>
+                <div class="agenda-content-block">
+                    <hr>
+                    <div class="agenda-top-row">
+                        <div class="timeline-top-row">
+                            <p class="top-row">TIMELINE</p>
+                        </div>
+                        <div class="topic-top-row">
+                            <p class="top-row">TOPIC</p>
+                        </div>
+                        <div class="speakers-top-row">
+                            <p class="top-row">SPEAKERS</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="agenda-content-row">
+                        <div class="time">
+                            <p>10:00 AM EST</p>
+                        </div>
+                        <div class="topic-block">
+                            <div class="topic-title topic-title1">THOUGHT LEADERSHIP SESSION</div>
+                            <h3 class="topic-content">NEXT ERA OF OPERATIONAL EXCELLENCE
+                                <br> OR SUPPLY CHAIN 4.0 – TRUE CONNECT,
+                                <br> INTELLIGENT AND AUTOMATED</h3>
+                        </div>
+                        <div class="speaker-block">
+                            <div class="speaker-block-content top-speaker">
+                                <div class="img-speaker">
+                                    <img src="Photo/Unknown_speaker.png">
+                                </div>
+                                <div class="about-speaker-block">
+                                    <h4 class="speaker-name-block">Henrik Von Scheel</h4>
+                                    <p class="speaker-position-block">Industry 4.0 originator, a sought-after speaker, 
+                                        <br>iconic futurist, and advisor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="agenda-content-row">
+                        <div class="time">
+                            <p>10:20 AM EST</p>
+                        </div>
+                        <div class="topic-block">
+                            <div class="topic-title topic-title2">KEYNOTE SESSION</div>
+                            <h3 class="topic-content">
+                                MANUFACTURING 2025: DRIVING
+                                <br> INNOVATIONS ORCREATING A NO-CODE
+                                <br> ENTERPRISE OF THE FUTURE</h3>
+                        </div>
+                        <div class="speaker-block">
+                            <div class="speaker-block-content speaker-first">
+                                <div class="img-speaker">
+                                    <img  src="Photo/Unknown_speaker.png">
+                                </div>
+                                <div class="about-speaker-block">
+                                    <h4 class="speaker-name-block">Jason Miller</h4>
+                                    <p class="speaker-position-block">Sr Director Pre-Sales America, Creatio</p>
+                                </div>
+                            </div>
+                            <div class="speaker-block-content">
+                                <div class="img-speaker">
+                                    <img src="Photo/Unknown_speaker.png">
+                                </div>
+                                <div class="about-speaker-block">
+                                    <h4 class="speaker-name-block">Andy Zambito</h4>
+                                    <p class="speaker-position-block">Chief Sales Officer Americas, Creatio</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="agenda-content-row " id="spekersBlockTwo"> 
+                        <div class="time">
+                            <p>10:40 AM EST</p>
+                        </div>
+                        <div class="topic-block">
+                            <div class="topic-title topic-title3">REAL-LIFE NO-CODE EXPERIENCE</div>
+                            <h3 class="topic-content">CUSTOMER <br> SUCCESS STORY</h3>
+                        </div>
+                        <div class="speaker-block">
+                            <div class="speaker-block-content speaker-first">
+                                <div class="img-speaker">
+                                    <img  src="Photo/Unknown_speaker.png">
+                                </div>
+                                <div class="about-speaker-block">
+                                    <h4 class="speaker-name-block">Scott Wolfe</h4>
+                                    <p class="speaker-position-block">Techosystems</p>
+                                </div>
+                            </div>
+                            <div class="speaker-block-content">
+                                <div class="img-speaker">
+                                    <img src="Photo/Unknown_speaker.png">
+                                </div>
+                                <div class="about-speaker-block">
+                                    <h4 class="speaker-name-block">Customer</h4>
+                                    <p class="speaker-position-block">Chief Sales Officer Americas, Creatio</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr id="hr-bottom">
+                    </div>
+                    <button id="buttonShowMoreWrap" onclick="showMore()">
+                        <span id="button-show-more">SHOW MORE</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--Screen4-->
+        <div class="screen4">
+            <div class="container">
+                <div class="title-screen4">
+                    <h2>FEATURED SPEAKER</h2> 
+                </div>
+                <div class="content-block-screen4-wrap">
+                    <div class="bottom-background-screen4"></div>
+                    <div class="main-content-screen4">
+                        <div class="speaker-photo-screen4">
+                            <img src="Photo/Unknown_speaker.png" alt="speaker">
+                        </div>
+                        <div class="speaker-block-wrap-screen4">
+                            <div class="speaker-block-screen4">
+                                <h3 class="speaker-name-screen4">PROF. YESHA SIVAN</h3>
+                                <p class="about-speaker-screen4">CEO, i8 ventures, Professor at the Chinese University<br>
+                                     of Hong Kong Business School</p>
+                                <img src="Photo/i8_ventures.PNG" alt="" class="speaker-company-screen4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</body>
+    <script src="JavaScriptTelAviv.js"></script>
+    </body>
 </html>
