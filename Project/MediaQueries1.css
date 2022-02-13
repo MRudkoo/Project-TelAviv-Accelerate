@@ -1,0 +1,131 @@
+/*Media
+***********************/
+@media only screen and (max-width:1920px) {
+    .container{
+        width:100%; 
+        max-width: 1680px;
+    }
+}
+@media only screen and (max-width:1366px) {
+    .container{
+        width:100%;
+        max-width: 1285px;
+    }
+    .header-container{
+        width:100%;
+        max-width: 1285px
+    }
+    .nav-menu-list li{
+        padding-left: 68px;
+    }
+    .nav-menu-list li:first-child{
+        padding-left: 184px;
+    }
+    .nav-menu-list{
+        font-size: 14px;
+        letter-spacing: 0.28px;
+    }
+    #button-header-wrap{
+        display: block;
+    }
+    .screen1-left-main-content-block{
+        width: 49%;
+        max-width: 658px;
+    }
+    .photo-title-tel-aviv-wrap{
+        width: 149%;
+        max-width: 981px;
+    }
+    .screen1-right-main-content-block{
+        width: 51%;
+        max-width: 627px;
+    }
+    .backgrount-photo-tel-aviv{
+        width: 107%;
+        max-width: 668px;
+    }
+    .main-photo-tel-aviv{
+        width: 100%;
+        max-width: 668px;
+    }
+    .right-background{
+        width: 37%;
+        max-width: 230px;
+        left: 450px;
+    }
+    .form-wrapper{
+        width: 59%;
+        max-width: 370px;
+    }
+    /* .header-logo-container{
+        width: 32%;
+        max-width: 412px;
+    } */
+}
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 728px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .container{
+        max-width: 280px;
+    }
+}
+
+
+
+
+    /* .container{
+        width: 100%;
+        max-width: 1325px;
+    }
+
+    .header-logo-creatio-wrap{
+        margin: 6%;
+        height: 50%;
+    }
+    .header-logo-creatio img{
+     
+        max-width: 120px;
+
+    }
+    .header-proceed-crm img{
+        max-width: 163px;
+    }
+    .nav-menu-list{
+        letter-spacing: 0.28px;
+        font-size: 14px; 
+    }
+    .nav-menu-list li{
+        padding-left: 69px;
+    }
+    .nav-menu-list li:first-child{
+        padding-left: 184px;
+    }
+
+    .date-and-place-block-wrap{
+        width: 206px;
+        font: normal normal bold 20px/22px Open Sans;
+        letter-spacing: 0.2px;
+    }
+    .date-block{
+        margin-bottom: 4px;
+    }
+
+    .backgrount-photo-tel-aviv{
+        width: 672px;
+        height: 545px;
+    }
+    .main-photo-tel-aviv{
+        width: 672px;
+        height: 545px;
+    }
+    .right-background{
+        position: relative;
+        width: 230px;
+        height: 545px;
+        left: 443px;
+        bottom: 545px;
+    }
+} */
